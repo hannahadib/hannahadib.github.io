@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Neue';
+    src: url(font/NeueHaasDisplayRoman.ttf);
+}
+
+
+body {
+    font-family: 'Neue';
+    margin: 0;
+    padding: 0;
+    color:#2A2A2A;
+    background-color: #F6F6F6;
+}
+
+header {
+    margin: 30px;
+    max-width: 60%;
+}
+
+section {
+    margin: 30px;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Neue';
+    font-size: 70px;
+    font-weight: 200;
+    color: #2A2A2A;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Neue';
+    font-size: 13px;
+    font-weight: 50;
+    color: #7c7c7c;
+    line-height: 1.5;
+}
+
+a {
+    color: #2A2A2A;
+}
+
+a:hover {
+    background-color: #2A2A2A;
+    color: #D6BFF3;
+  }
+
+.img-container {
+    display: flex;
+    
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+img {
+    width: 49%; 
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Añade estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .img-container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+footer {
+
+
+}
