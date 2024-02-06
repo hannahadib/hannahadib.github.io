@@ -14,18 +14,18 @@ body {
 
 header {
     margin: 30px;
-    max-width: 60%;
+    max-width: 50%;
 }
 
 section {
     margin: 30px;
-    max-width: 100%;
+    max-width: 70%;
 }
 
 h1 {
     font-family: 'Neue';
     font-size: 70px;
-    font-weight: 200;
+    font-weight: 100;
     color: #2A2A2A;
     margin: 0;
     padding: 0;
@@ -52,14 +52,15 @@ a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 100%;
+    max-width: 70%;
 }
 
 img {
-    width: 49%; 
+    width: 100%; 
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+    margin-right: 12px;
 }
 
 /* Añade estilos para dispositivos móviles */
@@ -87,9 +88,4 @@ img {
         margin: 10px;
         max-width: 100%;
     }
-}
-
-footer {
-
-
 }
