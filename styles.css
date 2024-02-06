@@ -10,6 +10,8 @@ body {
     padding: 0;
     color:#2A2A2A;
     background-color: #F6F6F6;
+
+    cursor: url('moneda_roin.png'), auto;
 }
 
 header {
@@ -29,6 +31,11 @@ h1 {
     color: #2A2A2A;
     margin: 0;
     padding: 0;
+}
+
+h2 {
+    font-weight: 50px;
+    margin: 5px;
 }
 
 h3 {
